@@ -10,12 +10,9 @@ namespace ConsoleApp1
     {
         //Change in Feature branch
 
-        public int sum()
+        public int sum(int x,int y)
         {
-            int x = 1;
-            int y = 2;
-            int sum = x + y;
-            return sum;
+          return x + y;
         }
     }
 }
